@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "new-web-app"
+version = "0.1.0"
+description = ""
+authors = ["blisssome <20a.emil01@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.17.6"
+fastapi = "^0.75.0"
+pydantic = {extras = ["email"], version = "^1.9.0"}
+python-multipart = "^0.0.5"
+Jinja2 = "^3.1.1"
+SQLAlchemy = "^1.4.33"
+psycopg2 = "^2.9.3"
+python-dotenv = "^0.20.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
